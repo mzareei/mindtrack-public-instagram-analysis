@@ -1,0 +1,272 @@
+{
+ "frame_before_matching": [
+  {
+   "analysis": "metadata, patients vs all extracted public candidates (before any eligibility step)",
+   "n_patients": 30,
+   "n_controls": 179,
+   "features": 14,
+   "auc_cv_mean": 0.571,
+   "auc_cv_sd": 0.034,
+   "auc_bagged": 0.576,
+   "boot95": "0.479-0.670"
+  },
+  {
+   "analysis": "metadata, patients vs eligible pool: verifiable age evidence, non-persons and false ages removed",
+   "n_patients": 30,
+   "n_controls": 106,
+   "features": 14,
+   "auc_cv_mean": 0.518,
+   "auc_cv_sd": 0.037,
+   "auc_bagged": 0.524,
+   "boot95": "0.398-0.650"
+  },
+  {
+   "analysis": "metadata, patients vs matched controls (after envelope, strata and nearest neighbour)",
+   "n_patients": 30,
+   "n_controls": 60,
+   "features": 14,
+   "auc_cv_mean": 0.474,
+   "auc_cv_sd": 0.054,
+   "auc_bagged": 0.466,
+   "boot95": "0.323-0.608"
+  }
+ ],
+ "between_person_sensitivity": [
+  {
+   "analysis": "metadata, excluding the 18 neighbouring-stratum controls",
+   "n_patients": 30,
+   "n_controls": 42,
+   "features": 14,
+   "auc_cv_mean": 0.506,
+   "auc_cv_sd": 0.037,
+   "auc_bagged": 0.494,
+   "boot95": "0.342-0.647"
+  },
+  {
+   "analysis": "style, excluding the 18 neighbouring-stratum controls",
+   "n_patients": 30,
+   "n_controls": 42,
+   "features": 25,
+   "auc_cv_mean": 0.425,
+   "auc_cv_sd": 0.043,
+   "auc_bagged": 0.41,
+   "boot95": "0.268-0.556"
+  },
+  {
+   "analysis": "metadata, excluding the 4 most active patients",
+   "n_patients": 26,
+   "n_controls": 60,
+   "features": 14,
+   "auc_cv_mean": 0.401,
+   "auc_cv_sd": 0.057,
+   "auc_bagged": 0.381,
+   "boot95": "0.237-0.530"
+  },
+  {
+   "analysis": "style, excluding the 4 most active patients",
+   "n_patients": 26,
+   "n_controls": 60,
+   "features": 25,
+   "auc_cv_mean": 0.397,
+   "auc_cv_sd": 0.042,
+   "auc_bagged": 0.397,
+   "boot95": "0.279-0.529"
+  },
+  {
+   "analysis": "style, accounts with at least one caption word only (no lexical imputation)",
+   "n_patients": 26,
+   "n_controls": 52,
+   "features": 25,
+   "auc_cv_mean": 0.418,
+   "auc_cv_sd": 0.047,
+   "auc_bagged": 0.396,
+   "boot95": "0.261-0.549"
+  }
+ ],
+ "accounts_with_words": {
+  "patients": 26,
+  "controls": 52
+ },
+ "union_contrast": [
+  {
+   "category": "expresion_simbolica",
+   "n_patients": 18,
+   "up": 7,
+   "down": 10,
+   "tie": 1,
+   "peri": "30/104",
+   "peri_pct": 28.8,
+   "baseline": "44/108",
+   "base_pct": 40.7,
+   "peri_upper95_exact_pct": 38.6,
+   "patients_with_marker_peri": 11,
+   "patients_with_marker_baseline": 12,
+   "p_sign": 0.629,
+   "p_wilcoxon": 0.245
+  },
+  {
+   "category": "desesperanza",
+   "n_patients": 18,
+   "up": 0,
+   "down": 2,
+   "tie": 16,
+   "peri": "1/104",
+   "peri_pct": 1.0,
+   "baseline": "5/108",
+   "base_pct": 4.6,
+   "peri_upper95_exact_pct": 5.2,
+   "patients_with_marker_peri": 1,
+   "patients_with_marker_baseline": 3,
+   "p_sign": 0.5,
+   "p_wilcoxon": NaN
+  },
+  {
+   "category": "carga_percibida",
+   "n_patients": 18,
+   "up": 1,
+   "down": 1,
+   "tie": 16,
+   "peri": "2/104",
+   "peri_pct": 1.9,
+   "baseline": "2/108",
+   "base_pct": 1.9,
+   "peri_upper95_exact_pct": 6.8,
+   "patients_with_marker_peri": 2,
+   "patients_with_marker_baseline": 2,
+   "p_sign": 1.0,
+   "p_wilcoxon": NaN
+  },
+  {
+   "category": "pertenencia",
+   "n_patients": 18,
+   "up": 2,
+   "down": 2,
+   "tie": 14,
+   "peri": "2/104",
+   "peri_pct": 1.9,
+   "baseline": "2/108",
+   "base_pct": 1.9,
+   "peri_upper95_exact_pct": 6.8,
+   "patients_with_marker_peri": 2,
+   "patients_with_marker_baseline": 2,
+   "p_sign": 1.0,
+   "p_wilcoxon": NaN
+  },
+  {
+   "category": "dolor_psiquico",
+   "n_patients": 18,
+   "up": 2,
+   "down": 3,
+   "tie": 13,
+   "peri": "3/104",
+   "peri_pct": 2.9,
+   "baseline": "7/108",
+   "base_pct": 6.5,
+   "peri_upper95_exact_pct": 8.2,
+   "patients_with_marker_peri": 3,
+   "patients_with_marker_baseline": 4,
+   "p_sign": 1.0,
+   "p_wilcoxon": 0.892
+  },
+  {
+   "category": "atrapamiento",
+   "n_patients": 18,
+   "up": 1,
+   "down": 2,
+   "tie": 15,
+   "peri": "1/104",
+   "peri_pct": 1.0,
+   "baseline": "4/108",
+   "base_pct": 3.7,
+   "peri_upper95_exact_pct": 5.2,
+   "patients_with_marker_peri": 1,
+   "patients_with_marker_baseline": 2,
+   "p_sign": 1.0,
+   "p_wilcoxon": NaN
+  },
+  {
+   "category": "busqueda_de_apoyo",
+   "n_patients": 18,
+   "up": 0,
+   "down": 3,
+   "tie": 15,
+   "peri": "0/104",
+   "peri_pct": 0.0,
+   "baseline": "3/108",
+   "base_pct": 2.8,
+   "peri_upper95_exact_pct": 3.5,
+   "patients_with_marker_peri": 0,
+   "patients_with_marker_baseline": 3,
+   "p_sign": 0.25,
+   "p_wilcoxon": NaN
+  },
+  {
+   "category": "despedida",
+   "n_patients": 18,
+   "up": 1,
+   "down": 3,
+   "tie": 14,
+   "peri": "2/104",
+   "peri_pct": 1.9,
+   "baseline": "5/108",
+   "base_pct": 4.6,
+   "peri_upper95_exact_pct": 6.8,
+   "patients_with_marker_peri": 2,
+   "patients_with_marker_baseline": 3,
+   "p_sign": 0.625,
+   "p_wilcoxon": NaN
+  },
+  {
+   "category": "any of 7 distress categories",
+   "n_patients": 18,
+   "up": 4,
+   "down": 5,
+   "tie": 9,
+   "peri": "8/104",
+   "peri_pct": 7.7,
+   "baseline": "13/108",
+   "base_pct": 12.0,
+   "peri_upper95_exact_pct": 14.6,
+   "patients_with_marker_peri": 6,
+   "patients_with_marker_baseline": 6,
+   "p_sign": 1.0,
+   "p_wilcoxon": 0.594
+  }
+ ],
+ "posting_rate_ratio_ci": [
+  {
+   "window_days": 30,
+   "n_patients": 20,
+   "geometric_ratio": 0.33,
+   "boot95": "0.10-1.15"
+  },
+  {
+   "window_days": 60,
+   "n_patients": 21,
+   "geometric_ratio": 0.55,
+   "boot95": "0.20-1.50"
+  },
+  {
+   "window_days": 90,
+   "n_patients": 20,
+   "geometric_ratio": 1.04,
+   "boot95": "0.46-2.26"
+  },
+  {
+   "window_days": 180,
+   "n_patients": 21,
+   "geometric_ratio": 0.8,
+   "boot95": "0.36-1.73"
+  }
+ ],
+ "post_contact_exposure_days_discordant": {
+  "median": 90.0,
+  "iqr": [
+   90,
+   90
+  ],
+  "min": 37,
+  "n_truncated": 3
+ },
+ "outlier_patient_in_analysis": true
+}

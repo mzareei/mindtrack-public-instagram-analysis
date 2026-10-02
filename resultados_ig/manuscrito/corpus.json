@@ -1,0 +1,150 @@
+{
+ "corpus": [
+  {
+   "group": "patients",
+   "accounts": 30,
+   "posts": 1393,
+   "posts_per_account_median": 17.0,
+   "posts_per_account_iqr": "4-30",
+   "posts_per_account_min_max": "1-329",
+   "top4_share_of_posts_pct": 68.3,
+   "words_total": 12267,
+   "words_per_post_median": 1,
+   "words_per_post_iqr": "0-5",
+   "posts_with_text_pct": 52.8,
+   "posts_without_text_pct": 47.2,
+   "posts_over_10_words_pct": 14.1,
+   "video_pct": 26.3,
+   "accounts_with_no_words": 4,
+   "followers_median": 330.0,
+   "followers_iqr": "134-643",
+   "first_post": "2013-06-16",
+   "last_post": "2026-08-27",
+   "posts_last_90d_before_extraction_pct": 7.5,
+   "posts_last_365d_before_extraction_pct": 25.8
+  },
+  {
+   "group": "matched controls",
+   "accounts": 60,
+   "posts": 1190,
+   "posts_per_account_median": 14.5,
+   "posts_per_account_iqr": "7-28",
+   "posts_per_account_min_max": "1-61",
+   "top4_share_of_posts_pct": 19.4,
+   "words_total": 12327,
+   "words_per_post_median": 2.0,
+   "words_per_post_iqr": "0-8",
+   "posts_with_text_pct": 55.5,
+   "posts_without_text_pct": 44.5,
+   "posts_over_10_words_pct": 19.7,
+   "video_pct": 14.7,
+   "accounts_with_no_words": 8,
+   "followers_median": 361.0,
+   "followers_iqr": "220-668",
+   "first_post": "2013-05-07",
+   "last_post": "2026-09-07",
+   "posts_last_90d_before_extraction_pct": 8.3,
+   "posts_last_365d_before_extraction_pct": 27.4
+  }
+ ],
+ "windows": {
+  "patients_with_consent_date": 30,
+  "discordant_patients": 18,
+  "patients_with_any_peri_post": 19,
+  "patients_with_any_pre_episode_post_90d": 14,
+  "patients_with_any_baseline_post": 22,
+  "peri_posts_total_discordant": 142,
+  "baseline_posts_total_discordant": 157,
+  "pre_episode_posts_discordant": 78,
+  "post_episode_posts_discordant": 64,
+  "patients_with_truncated_post_window": 3,
+  "peri_posts_per_patient_median_discordant": 3.0,
+  "baseline_posts_per_patient_median_discordant": 2.5,
+  "reasons_not_discordant": {
+   "no baseline posts": 1,
+   "no peri posts": 11
+  }
+ },
+ "annotation_kit": {
+  "posts": 212,
+  "patients": 18,
+  "peri": 104,
+  "baseline": 108,
+  "posts_with_text": 120,
+  "posts_without_text": 92,
+  "words_total": 2232,
+  "words_median_with_text": 4.0,
+  "posts_over_10_words": 22,
+  "posts_over_20_words": 15,
+  "video_posts": 82,
+  "posts_per_patient_per_window_cap": 20,
+  "per_patient_window_counts": [
+   [
+    [
+     "patient_01",
+     "peri"
+    ],
+    20
+   ],
+   [
+    [
+     "patient_02",
+     "base"
+    ],
+    20
+   ],
+   [
+    [
+     "patient_03",
+     "peri"
+    ],
+    20
+   ],
+   [
+    [
+     "patient_01",
+     "base"
+    ],
+    20
+   ],
+   [
+    [
+     "patient_02",
+     "peri"
+    ],
+    20
+   ]
+  ]
+ },
+ "control_funnel": {
+  "triaged_profiles": 3352,
+  "triage_verdicts": {
+   "pendiente_captions": 541,
+   "rechazado": 2690,
+   "aprobado_institucion": 90,
+   "aprobado_bio": 31
+  },
+  "harvest_discarded_as_institutional_brand_or_impossible": 272,
+  "approved_with_age_evidence": 123,
+  "evidence_type": {
+   "institucion": 90,
+   "bio": 31,
+   "captions": 2
+  },
+  "approved_extracted_public_with_posts": 122,
+  "removed_manual_review": 5,
+  "removed_non_person_filter": 11,
+  "manually_discarded_after_review": 16,
+  "eligible_pool": 106,
+  "extracted_profiles_unified": 205,
+  "extracted_public_with_posts": 179,
+  "matched": 60,
+  "matched_evidence_type": {
+   "bio": 17,
+   "captions": 2,
+   "institucion": 41
+  },
+  "matched_from_neighbouring_stratum": 18,
+  "matched_age_median": 21.0
+ }
+}

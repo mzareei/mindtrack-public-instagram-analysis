@@ -1,0 +1,353 @@
+{
+  "n": 90,
+  "n_pacientes": 30,
+  "n_controles": 60,
+  "imputados": {
+    "p1s_100": 12,
+    "p1p_100": 12,
+    "p23_100": 12,
+    "absol_100": 12,
+    "neg_100": 12,
+    "hedge_100": 12,
+    "emo_neg_100": 12,
+    "emo_pos_100": 12,
+    "muerte_100": 12,
+    "emoji_val": 31,
+    "gap_mediana": 8,
+    "burstiness": 16,
+    "ingles_share": 12,
+    "diversidad": 28
+  },
+  "univariadas": [
+    {
+      "rasgo": "gap_mediana",
+      "auc": 0.40694444444444444,
+      "mediana_pacientes": 24.319537037037037,
+      "mediana_controles": 30.536682581018518,
+      "p": 0.15152559406348565,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "burstiness",
+      "auc": 0.5891666666666666,
+      "mediana_pacientes": 1.3075822902299228,
+      "mediana_controles": 1.3075822902299228,
+      "p": 0.16832245933381662,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "hashtag_pp",
+      "auc": 0.5783333333333334,
+      "mediana_pacientes": 0.0016722408026755853,
+      "mediana_controles": 0.0,
+      "p": 0.18210534733186878,
+      "direccion": "pacientes >",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "p1s_100",
+      "auc": 0.5713888888888888,
+      "mediana_pacientes": 4.186274509803922,
+      "mediana_controles": 3.9607843137254903,
+      "p": 0.2694774646421698,
+      "direccion": "pacientes >",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "sin_cap_share",
+      "auc": 0.4438888888888889,
+      "mediana_pacientes": 0.037868162692847124,
+      "mediana_controles": 0.06111111111111111,
+      "p": 0.3715247420550194,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "palabras_log",
+      "auc": 0.4475,
+      "mediana_pacientes": 0.8225581286116446,
+      "mediana_controles": 1.0993987345674197,
+      "p": 0.41805372548685416,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "emo_neg_100",
+      "auc": 0.45222222222222225,
+      "mediana_pacientes": 0.0,
+      "mediana_controles": 0.0,
+      "p": 0.4021075826663947,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "emo_pos_100",
+      "auc": 0.5447222222222222,
+      "mediana_pacientes": 2.879679144385027,
+      "mediana_controles": 2.879679144385027,
+      "p": 0.489480094375053,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "absol_100",
+      "auc": 0.45861111111111114,
+      "mediana_pacientes": 0.8564635093167702,
+      "mediana_controles": 0.8564635093167702,
+      "p": 0.5126062606391479,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "emoji_pp",
+      "auc": 0.5402777777777777,
+      "mediana_pacientes": 0.09753787878787878,
+      "mediana_controles": 0.0746031746031746,
+      "p": 0.5335177888283904,
+      "direccion": "pacientes >",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "neg_100",
+      "auc": 0.4675,
+      "mediana_pacientes": 0.8870760881607029,
+      "mediana_controles": 0.9544800451738648,
+      "p": 0.6094410020620036,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "puntuacion",
+      "auc": 0.5316666666666666,
+      "mediana_pacientes": 0.0062372164282992314,
+      "mediana_controles": 0.0015479876160990713,
+      "p": 0.6052463625655689,
+      "direccion": "pacientes >",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "p23_100",
+      "auc": 0.4686111111111111,
+      "mediana_pacientes": 0.38867934366960993,
+      "mediana_controles": 0.513157894736842,
+      "p": 0.6194839696240226,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "hedge_100",
+      "auc": 0.5288888888888889,
+      "mediana_pacientes": 0.0,
+      "mediana_controles": 0.0,
+      "p": 0.5145864844276571,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "ingles_share",
+      "auc": 0.5272222222222223,
+      "mediana_pacientes": 0.0,
+      "mediana_controles": 0.0,
+      "p": 0.5291513384264903,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "p1p_100",
+      "auc": 0.47305555555555556,
+      "mediana_pacientes": 0.0,
+      "mediana_controles": 0.0,
+      "p": 0.6242751090615499,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "diversidad",
+      "auc": 0.47333333333333333,
+      "mediana_pacientes": 0.6604687343169728,
+      "mediana_controles": 0.6604687343169728,
+      "p": 0.6765561215104139,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "video_share",
+      "auc": 0.52,
+      "mediana_pacientes": 0.05154917148740072,
+      "mediana_controles": 0.04096989966555184,
+      "p": 0.7469835494793966,
+      "direccion": "pacientes >",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "hora_circ",
+      "auc": 0.4816666666666667,
+      "mediana_pacientes": 17.489786926329028,
+      "mediana_controles": 17.99733171860672,
+      "p": 0.7775954712385313,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "mencion_pp",
+      "auc": 0.4822222222222222,
+      "mediana_pacientes": 0.0,
+      "mediana_controles": 0.0,
+      "p": 0.7511593339401681,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "solo_simb_share",
+      "auc": 0.5169444444444444,
+      "mediana_pacientes": 0.09186535764375876,
+      "mediana_controles": 0.10833333333333334,
+      "p": 0.7883665531754585,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "finde_share",
+      "auc": 0.48638888888888887,
+      "mediana_pacientes": 0.3060200668896321,
+      "mediana_controles": 0.3090185676392573,
+      "p": 0.83378465965643,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "noche_share",
+      "auc": 0.5116666666666667,
+      "mediana_pacientes": 0.004273504273504274,
+      "mediana_controles": 0.018613387978142076,
+      "p": 0.8483112834843567,
+      "direccion": "pacientes <",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "emoji_val",
+      "auc": 0.4888888888888889,
+      "mediana_pacientes": 1.0,
+      "mediana_controles": 1.0,
+      "p": 0.8347069123575046,
+      "direccion": "=",
+      "q_fdr": 0.8836575869628716
+    },
+    {
+      "rasgo": "muerte_100",
+      "auc": 0.5041666666666667,
+      "mediana_pacientes": 0.0,
+      "mediana_controles": 0.0,
+      "p": 0.9342603893721484,
+      "direccion": "=",
+      "q_fdr": 0.9342603893721484
+    }
+  ],
+  "auc_cv": 0.4616944444444445,
+  "auc_cv_de": 0.05168920506017757,
+  "referencia_marco": 0.439,
+  "coeficientes": [
+    [
+      "palabras_log",
+      -0.9948029747934934
+    ],
+    [
+      "solo_simb_share",
+      -0.7739573008805782
+    ],
+    [
+      "hashtag_pp",
+      0.7249715157021123
+    ],
+    [
+      "sin_cap_share",
+      -0.6608106632096334
+    ],
+    [
+      "emo_neg_100",
+      -0.6486251003649977
+    ],
+    [
+      "emoji_pp",
+      0.6125669726311225
+    ],
+    [
+      "burstiness",
+      0.4880226945064786
+    ],
+    [
+      "ingles_share",
+      0.45989858947524265
+    ],
+    [
+      "mencion_pp",
+      -0.29331831038115597
+    ],
+    [
+      "puntuacion",
+      -0.27936394801531894
+    ],
+    [
+      "neg_100",
+      0.27760286206539736
+    ],
+    [
+      "diversidad",
+      -0.2566622396923359
+    ],
+    [
+      "emoji_val",
+      0.23131840716044633
+    ],
+    [
+      "noche_share",
+      0.227040459869621
+    ],
+    [
+      "p1s_100",
+      0.21289115776246578
+    ],
+    [
+      "gap_mediana",
+      0.2120419888927579
+    ],
+    [
+      "emo_pos_100",
+      0.1618459362920866
+    ],
+    [
+      "p1p_100",
+      0.15178147935104394
+    ],
+    [
+      "p23_100",
+      0.15093078063023466
+    ],
+    [
+      "muerte_100",
+      -0.08739996547694695
+    ],
+    [
+      "finde_share",
+      0.08498462365086044
+    ],
+    [
+      "hora_circ",
+      -0.07301492671921445
+    ],
+    [
+      "video_share",
+      0.046852514559811057
+    ],
+    [
+      "hedge_100",
+      -0.0446601293445654
+    ],
+    [
+      "absol_100",
+      -0.011458171274006427
+    ]
+  ]
+}

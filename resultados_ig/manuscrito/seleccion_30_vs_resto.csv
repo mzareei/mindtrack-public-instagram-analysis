@@ -1,0 +1,22 @@
+﻿variable,analysable,rest,test,p
+Age (median),22.0,21.0,Mann-Whitney U,0.854
+Women,22/30 (73%),50/74 (68%),Fisher exact,0.644
+Student,17/30 (57%),47/74 (64%),Fisher exact,0.515
+Previous attempt,24/30 (80%),62/74 (84%),Fisher exact,0.775
+High risk at admission,24/30 (80%),70/74 (95%),Fisher exact,0.032
+Self-report: uses social media every day,26/30 (87%),64/75 (85%),Fisher exact,1.0
+Self-report: Instagram is the favourite platform,17/30 (57%),33/75 (44%),Fisher exact,0.283
+Self-report: TikTok is the favourite platform,12/30 (40%),29/75 (39%),Fisher exact,1.0
+Self-report: posts public content,20/30 (67%),48/75 (64%),Fisher exact,0.826
+Self-report: use changes when feeling distressed,26/30 (87%),64/75 (85%),Fisher exact,1.0
+Self-report: uses social media when sad,21/30 (70%),44/75 (59%),Fisher exact,0.374
+Self-report: uses social media when anxious,20/30 (67%),45/75 (60%),Fisher exact,0.657
+Self-report: shares feelings on social media,14/30 (47%),25/75 (33%),Fisher exact,0.264
+Self-report: uses symbolic or indirect language to express mood,17/30 (57%),37/75 (49%),Fisher exact,0.524
+Self-report: has had conversations about suicide on social media,9/30 (30%),21/75 (28%),Fisher exact,0.816
+Self-report: knows online groups related to suicide or self-harm,6/30 (20%),15/75 (20%),Fisher exact,1.0
+Self-report: has sought help through social media,16/30 (53%),35/75 (47%),Fisher exact,0.666
+Self-report: has received support through social media,20/30 (67%),46/75 (61%),Fisher exact,0.661
+Self-report: has shared personal experiences online,19/30 (63%),43/75 (57%),Fisher exact,0.663
+Self-report: social media affects mood,22/30 (73%),50/75 (67%),Fisher exact,0.643
+Self-report: feels a constant need to be connected,21/30 (70%),36/75 (48%),Fisher exact,0.052

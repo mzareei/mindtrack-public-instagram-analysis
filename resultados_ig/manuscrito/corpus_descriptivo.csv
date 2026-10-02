@@ -1,0 +1,3 @@
+﻿group,accounts,posts,posts_per_account_median,posts_per_account_iqr,posts_per_account_min_max,top4_share_of_posts_pct,words_total,words_per_post_median,words_per_post_iqr,posts_with_text_pct,posts_without_text_pct,posts_over_10_words_pct,video_pct,accounts_with_no_words,followers_median,followers_iqr,first_post,last_post,posts_last_90d_before_extraction_pct,posts_last_365d_before_extraction_pct
+patients,30,1393,17.0,4-30,1-329,68.3,12267,1,0-5,52.8,47.2,14.1,26.3,4,330.0,134-643,2013-06-16,2026-08-27,7.5,25.8
+matched controls,60,1190,14.5,7-28,1-61,19.4,12327,2.0,0-8,55.5,44.5,19.7,14.7,8,361.0,220-668,2013-05-07,2026-09-07,8.3,27.4

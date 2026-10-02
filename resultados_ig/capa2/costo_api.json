@@ -1,0 +1,29 @@
+{
+ "anthropic": {
+  "proveedor": "anthropic",
+  "modelo": "claude-sonnet-4-5",
+  "posts_etiquetados": 212,
+  "posts_con_tokens": 212,
+  "tokens_entrada": 384115,
+  "tokens_salida": 32232,
+  "usd_por_millon_entrada": 3.0,
+  "usd_por_millon_salida": 15.0,
+  "origen_precio": "tabla (claude-sonnet)",
+  "usd_estimado": 1.6358,
+  "usd_por_post": 0.00772
+ },
+ "openai": {
+  "proveedor": "openai",
+  "modelo": "gpt-4o",
+  "posts_etiquetados": 212,
+  "posts_con_tokens": 212,
+  "tokens_entrada": 250678,
+  "tokens_salida": 22901,
+  "usd_por_millon_entrada": 2.5,
+  "usd_por_millon_salida": 10.0,
+  "origen_precio": "tabla (gpt-4o)",
+  "usd_estimado": 0.8557,
+  "usd_por_post": 0.00404
+ },
+ "_actualizado": "2026-09-10 14:55"
+}

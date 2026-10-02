@@ -1,0 +1,9 @@
+﻿categoria,n,prevalencia_A,prevalencia_B,acuerdo_bruto,kappa,pabak,calificacion,usable
+expresion_simbolica,212,32,67,0.769,0.378,0.538,debil,revisar
+desesperanza,212,5,4,0.986,0.66,0.972,sustancial,si
+carga_percibida,212,3,1,0.981,-0.007,0.962,pobre,si
+pertenencia,212,2,4,0.991,0.662,0.981,sustancial,si
+dolor_psiquico,212,8,8,0.981,0.74,0.962,sustancial,si
+atrapamiento,212,4,4,0.991,0.745,0.981,sustancial,si
+busqueda_de_apoyo,212,3,2,0.995,0.798,0.991,sustancial,si
+despedida,212,4,6,0.981,0.591,0.962,moderado,si

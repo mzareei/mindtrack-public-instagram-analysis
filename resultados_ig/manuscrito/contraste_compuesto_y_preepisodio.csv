@@ -1,0 +1,31 @@
+﻿category,version,n_patients,up,down,tie,peri,baseline,peri_pct,base_pct,patients_with_marker_peri,patients_with_marker_baseline,p_sign,p_wilcoxon,peri_upper95_rule_of_three_pct,peri_upper95_exact_pct
+any of 7 distress categories,consensus,18,2,5,11,2/104,8/108,1.9,7.4,2,5,0.453125,0.7344021432940631,,6.8
+any of 7 distress categories,consensus (pre-episode only),13,0,3,10,0/53,3/76,0.0,3.9,0,3,0.25,nan,5.7,6.7
+expresion_simbolica,consensus (pre-episode only),11,0,4,7,3/43,9/49,7.0,18.4,2,4,0.125,nan,,19.1
+desesperanza,consensus (pre-episode only),13,0,1,12,0/53,1/75,0.0,1.3,0,1,1.0,nan,5.7,6.7
+carga_percibida,consensus (pre-episode only),13,0,0,13,0/52,0/75,0.0,0.0,0,0,nan,nan,5.8,6.8
+pertenencia,consensus (pre-episode only),13,0,0,13,0/53,0/76,0.0,0.0,0,0,nan,nan,5.7,6.7
+dolor_psiquico,consensus (pre-episode only),13,0,1,12,0/53,1/75,0.0,1.3,0,1,1.0,nan,5.7,6.7
+atrapamiento,consensus (pre-episode only),13,0,0,13,0/53,0/75,0.0,0.0,0,0,nan,nan,5.7,6.7
+busqueda_de_apoyo,consensus (pre-episode only),13,0,1,12,0/53,1/75,0.0,1.3,0,1,1.0,nan,5.7,6.7
+despedida,consensus (pre-episode only),13,0,0,13,0/53,0/74,0.0,0.0,0,0,nan,nan,5.7,6.7
+any of 7 distress categories,anthropic,18,4,5,9,6/104,11/108,5.8,10.2,5,6,1.0,0.5525697210850116,,12.1
+any of 7 distress categories,anthropic (pre-episode only),13,0,4,9,1/53,6/76,1.9,7.9,1,4,0.125,nan,,10.1
+expresion_simbolica,anthropic (pre-episode only),13,0,5,8,4/53,13/76,7.5,17.1,3,5,0.0625,0.059058229090536596,,18.2
+desesperanza,anthropic (pre-episode only),13,0,1,12,0/53,1/76,0.0,1.3,0,1,1.0,nan,5.7,6.7
+carga_percibida,anthropic (pre-episode only),13,1,0,12,1/53,1/76,1.9,1.3,1,1,1.0,nan,,10.1
+pertenencia,anthropic (pre-episode only),13,0,0,13,0/53,0/76,0.0,0.0,0,0,nan,nan,5.7,6.7
+dolor_psiquico,anthropic (pre-episode only),13,0,1,12,0/53,1/76,0.0,1.3,0,1,1.0,nan,5.7,6.7
+atrapamiento,anthropic (pre-episode only),13,0,1,12,0/53,1/76,0.0,1.3,0,1,1.0,nan,5.7,6.7
+busqueda_de_apoyo,anthropic (pre-episode only),13,0,2,11,0/53,2/76,0.0,2.6,0,2,0.5,nan,5.7,6.7
+despedida,anthropic (pre-episode only),13,0,1,12,0/53,1/76,0.0,1.3,0,1,1.0,nan,5.7,6.7
+any of 7 distress categories,openai,18,3,5,10,4/104,10/108,3.8,9.3,4,5,0.7265625,0.8885020292282984,,9.6
+any of 7 distress categories,openai (pre-episode only),13,0,3,10,0/53,5/76,0.0,6.6,0,3,0.25,nan,5.7,6.7
+expresion_simbolica,openai (pre-episode only),13,2,6,5,11/53,31/76,20.8,40.8,6,8,0.2890625,0.23395283347058982,,34.1
+desesperanza,openai (pre-episode only),13,0,2,11,0/53,2/76,0.0,2.6,0,2,0.5,nan,5.7,6.7
+carga_percibida,openai (pre-episode only),13,0,0,13,0/53,0/76,0.0,0.0,0,0,nan,nan,5.7,6.7
+pertenencia,openai (pre-episode only),13,0,0,13,0/53,0/76,0.0,0.0,0,0,nan,nan,5.7,6.7
+dolor_psiquico,openai (pre-episode only),13,0,2,11,0/53,2/76,0.0,2.6,0,2,0.5,nan,5.7,6.7
+atrapamiento,openai (pre-episode only),13,0,0,13,0/53,0/76,0.0,0.0,0,0,nan,nan,5.7,6.7
+busqueda_de_apoyo,openai (pre-episode only),13,0,1,12,0/53,1/76,0.0,1.3,0,1,1.0,nan,5.7,6.7
+despedida,openai (pre-episode only),13,0,1,12,0/53,1/76,0.0,1.3,0,1,1.0,nan,5.7,6.7

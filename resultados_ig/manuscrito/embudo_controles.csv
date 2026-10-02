@@ -1,0 +1,17 @@
+﻿step,n
+triaged_profiles,3352
+triage_verdicts,"{""pendiente_captions"": 541, ""rechazado"": 2690, ""aprobado_institucion"": 90, ""aprobado_bio"": 31}"
+harvest_discarded_as_institutional_brand_or_impossible,272
+approved_with_age_evidence,123
+evidence_type,"{""institucion"": 90, ""bio"": 31, ""captions"": 2}"
+approved_extracted_public_with_posts,122
+removed_manual_review,5
+removed_non_person_filter,11
+manually_discarded_after_review,16
+eligible_pool,106
+extracted_profiles_unified,205
+extracted_public_with_posts,179
+matched,60
+matched_evidence_type,"{""bio"": 17, ""captions"": 2, ""institucion"": 41}"
+matched_from_neighbouring_stratum,18
+matched_age_median,21.0

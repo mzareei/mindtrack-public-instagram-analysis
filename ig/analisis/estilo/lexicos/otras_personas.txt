@@ -1,0 +1,18 @@
+# Segunda y tercera persona: hablar de o a otros. Sin articulos (lo/la/los/las)
+# porque confunden con el articulo determinado.
+tú
+tu
+te
+ti
+tus
+tuyo
+tuya
+contigo
+usted
+ustedes
+él
+ella
+ellos
+ellas
+le
+les

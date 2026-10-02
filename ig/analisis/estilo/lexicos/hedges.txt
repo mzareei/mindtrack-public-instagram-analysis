@@ -1,0 +1,18 @@
+# Tentativas / incertidumbre. Evidencia mas floja que las otras; barata.
+# Las entradas de varias palabras se buscan como frase.
+quizás
+quizá
+quizas
+quiza
+tal vez
+talvez
+a lo mejor
+no sé
+no se
+nose
+creo
+supongo
+parece
+capaz
+probablemente
+posiblemente

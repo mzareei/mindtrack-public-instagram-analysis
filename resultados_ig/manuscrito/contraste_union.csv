@@ -1,0 +1,10 @@
+﻿category,n_patients,up,down,tie,peri,peri_pct,baseline,base_pct,peri_upper95_exact_pct,patients_with_marker_peri,patients_with_marker_baseline,p_sign,p_wilcoxon
+expresion_simbolica,18,7,10,1,30/104,28.8,44/108,40.7,38.6,11,12,0.629,0.245
+desesperanza,18,0,2,16,1/104,1.0,5/108,4.6,5.2,1,3,0.5,nan
+carga_percibida,18,1,1,16,2/104,1.9,2/108,1.9,6.8,2,2,1.0,nan
+pertenencia,18,2,2,14,2/104,1.9,2/108,1.9,6.8,2,2,1.0,nan
+dolor_psiquico,18,2,3,13,3/104,2.9,7/108,6.5,8.2,3,4,1.0,0.892
+atrapamiento,18,1,2,15,1/104,1.0,4/108,3.7,5.2,1,2,1.0,nan
+busqueda_de_apoyo,18,0,3,15,0/104,0.0,3/108,2.8,3.5,0,3,0.25,nan
+despedida,18,1,3,14,2/104,1.9,5/108,4.6,6.8,2,3,0.625,nan
+any of 7 distress categories,18,4,5,9,8/104,7.7,13/108,12.0,14.6,6,6,1.0,0.594

@@ -1,0 +1,14 @@
+# Dependencias de los scrapers (ig/ y fb/)
+beautifulsoup4
+selenium
+requests
+python-dateutil
+
+# Credenciales desde .env (ig/scrappingData_ig.py)
+python-dotenv
+
+# Solo para fb/scraper_fb_a.py
+undetected-chromedriver
+# undetected-chromedriver 3.5.5 importa distutils, eliminado en Python 3.12+.
+# setuptools reinstala el shim de distutils.
+setuptools

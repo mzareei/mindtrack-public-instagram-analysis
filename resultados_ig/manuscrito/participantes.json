@@ -1,0 +1,338 @@
+{
+ "n_dataset_ids": 107,
+ "n_enrolled": 105,
+ "n_with_ig_handle": 78,
+ "n_analysable": 30,
+ "self_report": {
+  "uses social media every day": {
+   "item": "uses social media every day",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 90,
+   "all_interviewed_pct": 85.7,
+   "analysable_n": 30,
+   "analysable_k": 26,
+   "analysable_pct": 86.7
+  },
+  "Instagram is the favourite platform": {
+   "item": "Instagram is the favourite platform",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 50,
+   "all_interviewed_pct": 47.6,
+   "analysable_n": 30,
+   "analysable_k": 17,
+   "analysable_pct": 56.7
+  },
+  "TikTok is the favourite platform": {
+   "item": "TikTok is the favourite platform",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 41,
+   "all_interviewed_pct": 39.0,
+   "analysable_n": 30,
+   "analysable_k": 12,
+   "analysable_pct": 40.0
+  },
+  "posts public content": {
+   "item": "posts public content",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 68,
+   "all_interviewed_pct": 64.8,
+   "analysable_n": 30,
+   "analysable_k": 20,
+   "analysable_pct": 66.7
+  },
+  "use changes when feeling distressed": {
+   "item": "use changes when feeling distressed",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 90,
+   "all_interviewed_pct": 85.7,
+   "analysable_n": 30,
+   "analysable_k": 26,
+   "analysable_pct": 86.7
+  },
+  "uses social media when sad": {
+   "item": "uses social media when sad",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 65,
+   "all_interviewed_pct": 61.9,
+   "analysable_n": 30,
+   "analysable_k": 21,
+   "analysable_pct": 70.0
+  },
+  "uses social media when anxious": {
+   "item": "uses social media when anxious",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 65,
+   "all_interviewed_pct": 61.9,
+   "analysable_n": 30,
+   "analysable_k": 20,
+   "analysable_pct": 66.7
+  },
+  "shares feelings on social media": {
+   "item": "shares feelings on social media",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 39,
+   "all_interviewed_pct": 37.1,
+   "analysable_n": 30,
+   "analysable_k": 14,
+   "analysable_pct": 46.7
+  },
+  "uses symbolic or indirect language to express mood": {
+   "item": "uses symbolic or indirect language to express mood",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 54,
+   "all_interviewed_pct": 51.4,
+   "analysable_n": 30,
+   "analysable_k": 17,
+   "analysable_pct": 56.7
+  },
+  "has had conversations about suicide on social media": {
+   "item": "has had conversations about suicide on social media",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 30,
+   "all_interviewed_pct": 28.6,
+   "analysable_n": 30,
+   "analysable_k": 9,
+   "analysable_pct": 30.0
+  },
+  "knows online groups related to suicide or self-harm": {
+   "item": "knows online groups related to suicide or self-harm",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 21,
+   "all_interviewed_pct": 20.0,
+   "analysable_n": 30,
+   "analysable_k": 6,
+   "analysable_pct": 20.0
+  },
+  "has sought help through social media": {
+   "item": "has sought help through social media",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 51,
+   "all_interviewed_pct": 48.6,
+   "analysable_n": 30,
+   "analysable_k": 16,
+   "analysable_pct": 53.3
+  },
+  "has received support through social media": {
+   "item": "has received support through social media",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 66,
+   "all_interviewed_pct": 62.9,
+   "analysable_n": 30,
+   "analysable_k": 20,
+   "analysable_pct": 66.7
+  },
+  "has shared personal experiences online": {
+   "item": "has shared personal experiences online",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 62,
+   "all_interviewed_pct": 59.0,
+   "analysable_n": 30,
+   "analysable_k": 19,
+   "analysable_pct": 63.3
+  },
+  "social media affects mood": {
+   "item": "social media affects mood",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 72,
+   "all_interviewed_pct": 68.6,
+   "analysable_n": 30,
+   "analysable_k": 22,
+   "analysable_pct": 73.3
+  },
+  "feels a constant need to be connected": {
+   "item": "feels a constant need to be connected",
+   "all_interviewed_n": 105,
+   "all_interviewed_k": 57,
+   "all_interviewed_pct": 54.3,
+   "analysable_n": 30,
+   "analysable_k": 21,
+   "analysable_pct": 70.0
+  }
+ },
+ "hours_per_day_median": 5.0,
+ "hours_per_day_iqr": [
+  3.0,
+  8.0
+ ],
+ "n_interviewed": 105,
+ "n_analysable_interviewed": 30,
+ "ig_funnel": {
+  "Handles provided": 81,
+  "Account not found / handle invalid": 24,
+  "Private account": 14,
+  "Public account without posts": 13,
+  "Public account with posts (analysable)": 30
+ },
+ "ig_funnel_participants": {
+  "Handles provided": 80,
+  "Account not found / handle invalid": 23,
+  "Private account": 14,
+  "Public account without posts": 13,
+  "Public account with posts (analysable)": 30
+ },
+ "handle_providers_interviewed": 78,
+ "selection": [
+  {
+   "variable": "Age (median)",
+   "analysable": 22.0,
+   "rest": 21.0,
+   "test": "Mann-Whitney U",
+   "p": 0.854
+  },
+  {
+   "variable": "Women",
+   "analysable": "22/30 (73%)",
+   "rest": "50/74 (68%)",
+   "test": "Fisher exact",
+   "p": 0.644
+  },
+  {
+   "variable": "Student",
+   "analysable": "17/30 (57%)",
+   "rest": "47/74 (64%)",
+   "test": "Fisher exact",
+   "p": 0.515
+  },
+  {
+   "variable": "Previous attempt",
+   "analysable": "24/30 (80%)",
+   "rest": "62/74 (84%)",
+   "test": "Fisher exact",
+   "p": 0.775
+  },
+  {
+   "variable": "High risk at admission",
+   "analysable": "24/30 (80%)",
+   "rest": "70/74 (95%)",
+   "test": "Fisher exact",
+   "p": 0.032
+  },
+  {
+   "variable": "Self-report: uses social media every day",
+   "analysable": "26/30 (87%)",
+   "rest": "64/75 (85%)",
+   "test": "Fisher exact",
+   "p": 1.0
+  },
+  {
+   "variable": "Self-report: Instagram is the favourite platform",
+   "analysable": "17/30 (57%)",
+   "rest": "33/75 (44%)",
+   "test": "Fisher exact",
+   "p": 0.283
+  },
+  {
+   "variable": "Self-report: TikTok is the favourite platform",
+   "analysable": "12/30 (40%)",
+   "rest": "29/75 (39%)",
+   "test": "Fisher exact",
+   "p": 1.0
+  },
+  {
+   "variable": "Self-report: posts public content",
+   "analysable": "20/30 (67%)",
+   "rest": "48/75 (64%)",
+   "test": "Fisher exact",
+   "p": 0.826
+  },
+  {
+   "variable": "Self-report: use changes when feeling distressed",
+   "analysable": "26/30 (87%)",
+   "rest": "64/75 (85%)",
+   "test": "Fisher exact",
+   "p": 1.0
+  },
+  {
+   "variable": "Self-report: uses social media when sad",
+   "analysable": "21/30 (70%)",
+   "rest": "44/75 (59%)",
+   "test": "Fisher exact",
+   "p": 0.374
+  },
+  {
+   "variable": "Self-report: uses social media when anxious",
+   "analysable": "20/30 (67%)",
+   "rest": "45/75 (60%)",
+   "test": "Fisher exact",
+   "p": 0.657
+  },
+  {
+   "variable": "Self-report: shares feelings on social media",
+   "analysable": "14/30 (47%)",
+   "rest": "25/75 (33%)",
+   "test": "Fisher exact",
+   "p": 0.264
+  },
+  {
+   "variable": "Self-report: uses symbolic or indirect language to express mood",
+   "analysable": "17/30 (57%)",
+   "rest": "37/75 (49%)",
+   "test": "Fisher exact",
+   "p": 0.524
+  },
+  {
+   "variable": "Self-report: has had conversations about suicide on social media",
+   "analysable": "9/30 (30%)",
+   "rest": "21/75 (28%)",
+   "test": "Fisher exact",
+   "p": 0.816
+  },
+  {
+   "variable": "Self-report: knows online groups related to suicide or self-harm",
+   "analysable": "6/30 (20%)",
+   "rest": "15/75 (20%)",
+   "test": "Fisher exact",
+   "p": 1.0
+  },
+  {
+   "variable": "Self-report: has sought help through social media",
+   "analysable": "16/30 (53%)",
+   "rest": "35/75 (47%)",
+   "test": "Fisher exact",
+   "p": 0.666
+  },
+  {
+   "variable": "Self-report: has received support through social media",
+   "analysable": "20/30 (67%)",
+   "rest": "46/75 (61%)",
+   "test": "Fisher exact",
+   "p": 0.661
+  },
+  {
+   "variable": "Self-report: has shared personal experiences online",
+   "analysable": "19/30 (63%)",
+   "rest": "43/75 (57%)",
+   "test": "Fisher exact",
+   "p": 0.663
+  },
+  {
+   "variable": "Self-report: social media affects mood",
+   "analysable": "22/30 (73%)",
+   "rest": "50/75 (67%)",
+   "test": "Fisher exact",
+   "p": 0.643
+  },
+  {
+   "variable": "Self-report: feels a constant need to be connected",
+   "analysable": "21/30 (70%)",
+   "rest": "36/75 (48%)",
+   "test": "Fisher exact",
+   "p": 0.052
+  }
+ ],
+ "consent_dates_analysable": {
+  "min": "2025-06-24",
+  "max": "2026-08-25"
+ },
+ "consent_dates_enrolled_excluding_2021_outlier": {
+  "min": "2025-06-20",
+  "max": "2026-08-25"
+ },
+ "red_favorita_all": {
+  "TikTok": 41,
+  "Instagram": 50,
+  "Facebook": 12,
+  "X (Twitter)": 2
+ },
+ "tiene_instagram_registered": 82
+}

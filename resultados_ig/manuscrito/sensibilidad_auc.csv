@@ -1,0 +1,9 @@
+﻿analysis,n_patients,n_controls,features,auc_cv_mean,auc_cv_sd,auc_bagged,boot95
+"metadata, patients vs all extracted public candidates (before any eligibility step)",30,179,14,0.571,0.034,0.576,0.479-0.670
+"metadata, patients vs eligible pool: verifiable age evidence, non-persons and false ages removed",30,106,14,0.518,0.037,0.524,0.398-0.650
+"metadata, patients vs matched controls (after envelope, strata and nearest neighbour)",30,60,14,0.474,0.054,0.466,0.323-0.608
+"metadata, excluding the 18 neighbouring-stratum controls",30,42,14,0.506,0.037,0.494,0.342-0.647
+"style, excluding the 18 neighbouring-stratum controls",30,42,25,0.425,0.043,0.41,0.268-0.556
+"metadata, excluding the 4 most active patients",26,60,14,0.401,0.057,0.381,0.237-0.530
+"style, excluding the 4 most active patients",26,60,25,0.397,0.042,0.397,0.279-0.529
+"style, accounts with at least one caption word only (no lexical imputation)",26,52,25,0.418,0.047,0.396,0.261-0.549

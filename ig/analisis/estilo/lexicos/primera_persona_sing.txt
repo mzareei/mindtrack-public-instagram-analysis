@@ -1,0 +1,24 @@
+# Primera persona del singular: pronombres y los verbos de estado mas frecuentes
+# en captions. El marcador mas replicado de la literatura (Pennebaker; Al-Mosaiwi
+# & Johnstone 2018): el malestar vuelve la atencion hacia uno mismo.
+yo
+me
+mi
+mis
+mío
+mía
+míos
+mías
+mio
+mia
+conmigo
+estoy
+soy
+tengo
+siento
+quiero
+puedo
+voy
+necesito
+extraño
+extrano

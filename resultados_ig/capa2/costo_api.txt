@@ -1,0 +1,10 @@
+COSTE ESTIMADO DE LA ANOTACION POR API (2026-09-10 14:55)
+Estimacion a partir de los tokens que devuelve cada respuesta; la cifra real es la factura del proveedor.
+
+proveedor  modelo                    posts  tok_entrada   tok_salida        USD   USD/post
+anthropic  claude-sonnet-4-5           212      384,115       32,232     1.6358    0.00772
+           precio: 3.00 / 15.00 USD por 1M tokens, origen: tabla (claude-sonnet)
+openai     gpt-4o                      212      250,678       22,901     0.8557    0.00404
+           precio: 2.50 / 10.00 USD por 1M tokens, origen: tabla (gpt-4o)
+
+TOTAL estimado: USD 2.4915

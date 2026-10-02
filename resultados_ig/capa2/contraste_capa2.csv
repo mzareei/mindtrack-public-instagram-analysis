@@ -1,0 +1,25 @@
+﻿version,categoria,n_pacientes,sube,baja,igual,mediana_dif,posts_peri,posts_base,pct_peri,pct_base,p_signo,p_wilcoxon,q_fdr
+consenso,expresion_simbolica,16,5,5,6,0.0,11/80,14/78,13.75,17.9487,1.0,0.9186,0.9186
+consenso,desesperanza,18,0,2,16,0.0,0/103,3/106,0.0,2.8302,0.5,nan,nan
+consenso,carga_percibida,18,0,0,18,0.0,0/102,0/106,0.0,0.0,nan,nan,nan
+consenso,pertenencia,18,0,2,16,0.0,0/102,2/108,0.0,1.8519,0.5,nan,nan
+consenso,dolor_psiquico,18,1,2,15,0.0,1/102,5/106,0.9804,4.717,1.0,nan,nan
+consenso,atrapamiento,18,0,1,17,0.0,0/103,3/107,0.0,2.8037,1.0,nan,nan
+consenso,busqueda_de_apoyo,18,0,2,16,0.0,0/104,2/107,0.0,1.8692,0.5,nan,nan
+consenso,despedida,18,1,1,16,0.0,1/103,2/105,0.9709,1.9048,1.0,nan,nan
+solo anthropic,expresion_simbolica,18,5,5,8,0.0,13/104,19/108,12.5,17.5926,1.0,0.7598,0.7835
+solo anthropic,dolor_psiquico,18,3,2,13,0.0,3/104,5/108,2.8846,4.6296,1.0,0.7835,0.7835
+solo anthropic,desesperanza,18,0,1,17,0.0,1/104,4/108,0.9615,3.7037,1.0,nan,nan
+solo anthropic,carga_percibida,18,1,0,17,0.0,2/104,1/108,1.9231,0.9259,1.0,nan,nan
+solo anthropic,pertenencia,18,0,2,16,0.0,0/104,2/108,0.0,1.8519,0.5,nan,nan
+solo anthropic,atrapamiento,18,0,2,16,0.0,0/104,4/108,0.0,3.7037,0.5,nan,nan
+solo anthropic,busqueda_de_apoyo,18,0,3,15,0.0,0/104,3/108,0.0,2.7778,0.25,nan,nan
+solo anthropic,despedida,18,1,2,15,0.0,1/104,3/108,0.9615,2.7778,1.0,nan,nan
+solo openai,expresion_simbolica,18,8,9,1,-0.05,28/104,39/108,26.9231,36.1111,1.0,0.4344,0.5879
+solo openai,dolor_psiquico,18,1,4,13,0.0,1/104,7/108,0.9615,6.4815,0.375,0.5879,0.5879
+solo openai,desesperanza,18,0,3,15,0.0,0/104,4/108,0.0,3.7037,0.25,nan,nan
+solo openai,carga_percibida,18,0,1,17,0.0,0/104,1/108,0.0,0.9259,1.0,nan,nan
+solo openai,pertenencia,18,2,2,14,0.0,2/104,2/108,1.9231,1.8519,1.0,nan,nan
+solo openai,atrapamiento,18,1,1,16,0.0,1/104,3/108,0.9615,2.7778,1.0,nan,nan
+solo openai,busqueda_de_apoyo,18,0,2,16,0.0,0/104,2/108,0.0,1.8519,0.5,nan,nan
+solo openai,despedida,18,2,2,14,0.0,2/104,4/108,1.9231,3.7037,1.0,nan,nan
